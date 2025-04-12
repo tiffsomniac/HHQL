@@ -1,8 +1,5 @@
 # Home Headquarters Launcher
 
-
-# HHQ Launcher
-
 A cross-platform launcher for PlayStation Home on RPCS3 emulator.
 
 ## Features
