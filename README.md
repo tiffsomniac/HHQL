@@ -4,11 +4,10 @@ A cross-platform launcher for PlayStation Home on RPCS3 emulator.
 
 ## Features
 
-- Launch PlayStation Home in both online and offline modes
+- Launch PlayStation Home in online mode
 - Browse the item catalogue
 - View announcements and events
 - Customizable theme with accent colors
-- Cross-platform support for Windows and Linux
 
 ## Installation
 
@@ -18,41 +17,13 @@ A cross-platform launcher for PlayStation Home on RPCS3 emulator.
 2. Extract the ZIP file to your preferred location
 3. Run `HHQ_Launcher.exe`
 
-### Linux
-
-1. Download the latest release from the releases page
-2. Extract the archive to your preferred location
-3. Make the launcher executable:
-   ```bash
-   chmod +x HHQ_Launcher
-   ```
-4. Run the launcher:
-   ```bash
-   ./HHQ_Launcher
-   ```
-
 ## Configuration
 
 ### Path Settings
 
-The launcher needs to know where your RPCS3 executable and game files are located:
+The launcher needs to know where your RPCS3 executable is.
 
 - **RPCS3 Path**: Path to the RPCS3 executable
-- **Offline Game Path**: Path to the offline version of PlayStation Home
-- **Online Game Path**: Path to the online version of PlayStation Home
-- **Postinstall.sql Path**: Path to the postinstall.sql file 
-
-### Default Paths
-
-#### Windows
-- RPCS3: `F:\PSHomeStuff\RPCS3\rpcs3.exe`
-- Offline Game: `C:\psh_devhdd0\dev_hdd0\GAME\NPIA00010`
-- Online Game: `F:\PSHomeStuff\RPCS3\dev_hdd0\game\NPIA00005`
-
-#### Linux
-- RPCS3: `~/.config/rpcs3/rpcs3`
-- Offline Game: `~/.config/rpcs3/dev_hdd0/GAME/NPIA00010`
-- Online Game: `~/.config/rpcs3/dev_hdd0/game/NPIA00005`
 
 ## Building from Source
 
@@ -84,7 +55,6 @@ The launcher needs to know where your RPCS3 executable and game files are locate
 
 ### Linux
 
-- If the launcher can't find the font, it will fall back to Arial
 - If RPCS3 fails to start, make sure it has executable permissions:
   ```bash
   chmod +x /path/to/rpcs3
