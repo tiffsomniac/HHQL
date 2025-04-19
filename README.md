@@ -1,7 +1,6 @@
 # Home Headquarters Launcher
 
 
-![image](https://github.com/user-attachments/assets/a82b9f2a-094d-4740-8700-b503501cb7f5)
 
 
 
