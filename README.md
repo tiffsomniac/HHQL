@@ -6,10 +6,9 @@ A dedicated launcher for PlayStation Home that simplifies RPCS3 / Home Headquart
 
 ### Game Management
 - Quickly open RPCS3 and Home Headquarters in the press of a button 
-- RPCS3 configuration assistance
-- Firmware installation helper
-- RPCN account setup
-- Input handler configuration (DualSense, DualShock 4, XInput, Keyboard)
+- RPCS3 Configuration Assistance
+- Firmware Auto Installation 
+- Input Handler Configuration (DualSense, DualShock 4, XInput, Keyboard)
 
 ### Content Discovery
 - Item catalogue
