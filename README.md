@@ -1,17 +1,14 @@
-# Home Headquarters Launcher
 
+![image](https://github.com/user-attachments/assets/265c6b78-99ad-42cf-9eb5-393f62dac68f)
 
-![image](https://github.com/user-attachments/assets/d8c8c678-bda5-4a43-bcf0-e4136b58a5ba)
-
-
-
-
+ Home Headquarters Launcher
 
 A dedicated launcher for PlayStation Home that simplifies RPCS3 / Home Headquarters setup.
+##
 
 ##  Key Features
 
-### Game Management
+ Game Management
 - Quickly open RPCS3 and Home Headquarters in the press of a button 
 - RPCS3 Configuration Assistance
 - Firmware Auto Installation 
