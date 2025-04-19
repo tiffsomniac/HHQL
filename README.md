@@ -1,66 +1,94 @@
 # Home Headquarters Launcher
 
-A cross-platform launcher for PlayStation Home on RPCS3 emulator.
+A dedicated launcher for PlayStation Home that simplifies RPCS3 / Home Headquarters setup.
 
-## Features
+##  Key Features
 
-- Launch PlayStation Home in online mode
-- Browse the item catalogue
-- View announcements and events
-- Customizable theme with accent colors
+### Game Management
+- Quickly open RPCS3 and Home Headquarters in the press of a button 
+- RPCS3 configuration assistance
+- Firmware installation helper
+- RPCN account setup
+- Input handler configuration (DualSense, DualShock 4, XInput, Keyboard)
 
-## Installation
+### Content Discovery
+- Item catalogue
+- Event announcements 
+- News updates
+- Player count 
+- Event calendar
 
-### Windows
+### Customization
+- Favorite Color
+- GPU configuration
 
-1. Download the latest release from the releases page
+### System Features
+- Update notifications
+- Automatic path detection
+- Error handling
+
+## 🚀 Getting Started
+
+### Windows Installation
+1. Download the latest release from the [releases page](https://github.com/tiffsomniac/HHQL/releases)
 2. Extract the ZIP file to your preferred location
-3. Run `HHQ_Launcher.exe`
+3. Run `HHQLauncher.exe`
 
-## Configuration
+### Linux Installation
+1. Download the latest release
+2. Extract the archive
+3. Make executable: `chmod +x HHQLauncher`
+4. Run: `./HHQLauncher`
 
-### Path Settings
+## ⚙️ Configuration
 
-The launcher needs to know where your RPCS3 executable is.
+### Needs to be done outside of launcher
+- RPCN Account Creation
+- RPCS3 Custom Input Binds (for now)
 
-- **RPCS3 Path**: Path to the RPCS3 executable
+### Default Locations
 
-## Building from Source
+#### Windows
+```
+RPCS3: F:\PSHomeStuff\RPCS3\rpcs3.exe
+Game: F:\PSHomeStuff\RPCS3\dev_hdd0\game\NPIA00005
+```
+
+#### Linux
+```
+RPCS3: ~/.config/rpcs3/rpcs3
+Game: ~/.config/rpcs3/dev_hdd0/game/NPIA00005
+```
+
+## 🛠️ Development
 
 ### Prerequisites
+- Python 3.8+
+- Required packages: `pip install -r requirements.txt`
 
-- Python 3.8 or higher
-- PyInstaller
-- Required Python packages (install with `pip install -r requirements.txt`)
-
-### Building
-
+### Building from Source
 1. Clone the repository
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the build script:
-   ```bash
-   python build.py
-   ```
-4. The executable will be created in the `dist` directory
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run build script: `python build.py`
+4. Find executable in `dist` directory
 
-## Troubleshooting
+## 🔍 Troubleshooting
 
-### Windows
+### Common Solutions
+- Run as administrator for path-related issues
+- Check RPCS3 configuration if game fails to launch
+- Ensure you have a valid RPCN account in the launcher via Network settings
+- Verify firmware installation if experiencing black screens
+- Ensure correct input handler is selected 
 
-- If the launcher fails to start RPCS3, try running it with administrator privileges
-- Make sure all paths in the settings are correct
+### Linux-Specific
+- Set executable permissions: `chmod +x /path/to/rpcs3`
+- May require sudo for certain operations
 
-### Linux
+## 📝 License
 
-- If RPCS3 fails to start, make sure it has executable permissions:
-  ```bash
-  chmod +x /path/to/rpcs3
-  ```
-- You may need to run with sudo if RPCS3 requires elevated permissions
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## License
+## 🤝 Contributing
 
-This project is licensed under the MIT License - see the LICENSE file for details. 
+Contributions are always welcome. Please feel free to submit a Pull Request.
