@@ -1,5 +1,10 @@
 # Home Headquarters Launcher
 
+
+![image](https://github.com/user-attachments/assets/a82b9f2a-094d-4740-8700-b503501cb7f5)
+
+
+
 A dedicated launcher for PlayStation Home that simplifies RPCS3 / Home Headquarters setup.
 
 ##  Key Features
