@@ -18,8 +18,7 @@ A dedicated launcher for PlayStation Home that simplifies RPCS3 / Home Headquart
 - Event calendar
 
 ### Customization
-- Favorite Color
-- GPU configuration
+- Favorite Color Setting
 
 ### System Features
 - Update notifications
