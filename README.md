@@ -49,8 +49,8 @@ A dedicated launcher for PlayStation Home that simplifies RPCS3 / Home Headquart
 
 #### Windows
 ```
-RPCS3: F:\PSHomeStuff\RPCS3\rpcs3.exe
-Game: F:\PSHomeStuff\RPCS3\dev_hdd0\game\NPIA00005
+RPCS3: C:\RPCS3\rpcs3.exe
+Game: C:\RPCS3\dev_hdd0\game\NPIA00005
 ```
 
 #### Linux
